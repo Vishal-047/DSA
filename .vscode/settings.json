@@ -4,5 +4,17 @@
         "vector": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.syntaxHighlightingEnabled": false,
+    "cursor.completions.enabled": false,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "off",
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggestOnTriggerCharacters": false
 }
