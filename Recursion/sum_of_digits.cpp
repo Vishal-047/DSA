@@ -19,3 +19,4 @@ int main() {
     cout << "Sum of digits: " << result << endl;
     return 0;
 }
+//This code will print the sum of digits from 1 to n.......
