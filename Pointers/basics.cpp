@@ -5,14 +5,15 @@ int main(){
     int n=34;
     int *b=&n;
     cout<<*b<<endl;
+    cout<<&b<<endl;
     cout<<&n<<endl;
     cout<<b<<endl;
 // Pointer to pointer
 
     int **c=&b;
-    cout<<c<<endl;
-    cout<<*c<<endl;
-    cout<<**c<<endl;
+    cout<<"C: "<<c<<endl;
+    cout<<"*C: "<<*c<<endl; //*c dereferences c giving b
+    cout<<"**C: "<<**c<<endl; //**c dereferences b giving the value of c */
 
     *b=40;
     cout<<"The value of n is: "<<n<<endl;
