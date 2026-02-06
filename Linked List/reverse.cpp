@@ -29,15 +29,18 @@ class linkedlist{
         temp->Next=new_node;
     }
 };
-void reverse(Node* head){
-    //Base condition.....
-    if(head==NULL){
-        return;
-    }
-    //Recursive condition......
-    reverse(head->Next);
-        cout<<head->val<<" ";
+Node* reverse(Node* head){
+    //Base Case......
+    if(head==NULL || head->Next==NULL)
+        return head;
+    //recursive condition.....
+    Node* newHead = reverse(head->Next);
+    head->Next->Next = head;
+    head->Next = NULL;
+
+    return newHead;
 }
+
 int main(){
     linkedlist ll;
     int n;

@@ -1,12 +1,7 @@
-
-    Node* prev=NULL;
-
-    int n;
-    cout<<"Enter the number: ";
-    cin>>n;
-    for(int i=0;i<n;i++){
-        int value;
-        cin>>value;
-        insert(head, value);
+/Base condition.....
+    if(head==NULL){
+        return;
     }
-    deletion(head,
+    //Recursive condition......
+    reverse(head->Next);
+        cout<<head->val<<" ";
