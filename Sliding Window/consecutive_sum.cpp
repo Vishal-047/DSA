@@ -31,5 +31,4 @@ int main(){
     int ans=consecsum(arr,n,k);
     cout<<ans;
     return 0;
-    
 }
