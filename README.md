@@ -19,8 +19,3 @@ g++ -g path\to\file.cpp -o path\to\file.exe
 
 Notes
 - Files are intended as small practice programs; feel free to reorganize or add a top-level project structure.
-
-If you want, I can:
-- Run a build task for a specific file
-- Add a contributor/license section
-- Create a small README per subfolder
